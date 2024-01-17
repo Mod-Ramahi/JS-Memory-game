@@ -101,7 +101,7 @@ function initiateElements () {
         gridDiv.appendChild(card)
         setTimeout(() => {
             card.setAttribute('src', 'images/blank.png')
-         }, 50 * (i+1))
+         }, 100 * (i+1))
          setTimeout( () => {
             card.classList.add('pointer')
             card.addEventListener('click', onCardClick)
